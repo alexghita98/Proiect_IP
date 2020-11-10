@@ -4,9 +4,9 @@ public class Pretzel implements Product {
     private int pretzelPrice;
     private int pretzelQuantity;
 
-    public Pretzel(int breadPrice, int breadQuantity) {
-        this.pretzelPrice = breadPrice;
-        this.pretzelQuantity = breadQuantity;
+    public Pretzel(int pretzelPrice, int pretzelQuantity) {
+        this.pretzelPrice = pretzelPrice;
+        this.pretzelQuantity = pretzelQuantity;
     }
 
     @Override

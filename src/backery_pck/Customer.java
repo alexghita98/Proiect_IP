@@ -33,7 +33,7 @@ public class Customer implements Person{
 
     @Override
     public void information() {
-        System.out.println(this.name_+"  are "+this.age_+" ani si ia pe luna "+this.salary_+" avand numarul de telefon "+this.phoneNumber_);
+        System.out.println(this.name_+" are "+this.age_+" ani si ia pe luna "+this.salary_+" avand numarul de telefon "+this.phoneNumber_);
     }
 
     @Override
