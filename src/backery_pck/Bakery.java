@@ -47,7 +47,21 @@ public class Bakery {
         this.products_.add(p);
     }
 
-    
+    public void printPersons()
+    {
+        for(Person p: this.persons_)
+        {
+            p.information();
+        }
+    }
+
+    public void printProducts()
+    {
+        for(Product p:this.products_)
+        {
+            p.nutrition();
+        }
+    }
 
 
 }
