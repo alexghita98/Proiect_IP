@@ -4,14 +4,14 @@ public class Strudel implements Product{
     private int strudelPrice;
     private int strudelQuantity;
 
-    public Strudel(int breadPrice, int breadQuantity) {
-        this.strudelPrice = breadPrice;
-        this.strudelQuantity = breadQuantity;
+    public Strudel(int strudelPrice, int strudelQuantity) {
+        this.strudelPrice = strudelPrice;
+        this.strudelQuantity = strudelQuantity;
     }
 
     @Override
     public void nutrition() {
-        System.out.println("Strudel delicioas si gustoas cu pretul" + this.strudelPrice + " si cantitatea "+this.strudelQuantity+"!\n");
+        System.out.println("Strudel delicios si gustos cu pretul " + this.strudelPrice + " si cantitatea "+this.strudelQuantity+"!\n");
     }
 
     @Override
