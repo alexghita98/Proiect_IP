@@ -10,6 +10,14 @@ public class Bread implements Product {
         this.breadQuantity = breadQuantity;
     }
 
+    public void setBreadPrice(int breadPrice) {
+        this.breadPrice = breadPrice;
+    }
+
+    public void setBreadQuantity(int breadQuantity) {
+        this.breadQuantity = breadQuantity;
+    }
+
     @Override
     public void nutrition() {
         System.out.println("Paine delicioasa si gustoasa cu pretul" + breadPrice + " si cantitatea "+breadQuantity+"!\n");

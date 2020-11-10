@@ -9,6 +9,14 @@ public class Loaf implements Product{
         this.loafQuantity = loafQuantity;
     }
 
+    public void setLoafPrice(int loafPrice) {
+        this.loafPrice = loafPrice;
+    }
+
+    public void setLoafQuantity(int loafQuantity) {
+        this.loafQuantity = loafQuantity;
+    }
+
     @Override
     public void nutrition() {
         System.out.println("Franzela delicioasa si gustoasa cu pretul" + loafPrice + " si cantitatea "+loafQuantity+"!\n");
