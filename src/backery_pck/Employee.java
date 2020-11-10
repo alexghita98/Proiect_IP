@@ -6,6 +6,14 @@ public class Employee implements Person {
     private int employeeAge;
     private int employeeSalary;
     private int employeePhoneNumber;
+
+    public Employee(String tipPerson, int employeeAge, int employeeSalary, int employeePhoneNumber) {
+        this.tipPerson = tipPerson;
+        this.employeeAge = employeeAge;
+        this.employeeSalary = employeeSalary;
+        this.employeePhoneNumber = employeePhoneNumber;
+    }
+
     @Override
     public void information() {
         System.out.println(tipPerson+" are varsta "+employeeAge+ ", salariu de "+employeeSalary+ " numarul de telefon "+employeePhoneNumber +" !\n");
